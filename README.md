@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pixyll
 
 [pixyll.com](http://www.pixyll.com)
@@ -95,3 +96,9 @@ I hope you enjoy using Pixyll. If you encounter any issues, please feel free to 
 * [Jekyll](http://jekyllrb.com)
 * [Refills](http://refills.bourbon.io/)
 * [Solarized](http://ethanschoonover.com/solarized)
+=======
+thesis-blog
+===========
+
+Blog running on Jekyll for documenting my thesis process in the Parsons MFA Design and Technology program
+>>>>>>> f799dd6ed6519f40e1cdd755d00de0e292a0c033
