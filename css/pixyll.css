@@ -15,7 +15,7 @@
 
 body {
   font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-  background: url(/img/crossword.png);
+  background: url(../img/crossword.png);
   background-repeat: repeat;
 }
 
