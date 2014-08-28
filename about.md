@@ -5,7 +5,11 @@ permalink: /about/
 ---
 
 ![self portrait](../img/cafe-instagram.png)
-My name is Chris Henrick and this is a blog documenting my MFA Design & Technology thesis process and progress during Fall 2014 and Spring 2015 at Parsons, The Newschool For Design in New York City.
+This is Chris Henrick's blog documenting his thesis process and progress for the MFA Design & Technology program at Parsons, The Newschool For Design in New York City. His thesis faculty for the Fall of 2014 are [Scott Pobiner](http://www.newschool.edu/parsons/faculty.aspx?id=4e44-6331-4f44-5134) and [Louisa Campbell](http://mfadt.parsons.edu/2014/faculty/louisa-campbell).
+
+### Also see
+- [Cartography Portfolio](http://chrishenrick.com)
+- [MFA DT first year experiments](http://chenrickmfadt.wordpress.com/)
 
 ## Thesis Title
 
