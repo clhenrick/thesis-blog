@@ -1,8 +1,8 @@
 # Site settings
-title: MFA DT Thesis Blog
+title: Chris Henrick's MFA DT Thesis Blog
 email: chrishenrick@gmail.com
 author: Chris L Henrick
-description: "Documenting my thesis process at Parsons MFA Design and Technology"
+description: "Documenting my thesis process and progress at Parsons' MFA Design and Technology"
 baseurl: "/thesis-blog"
 url: "http://clhenrick.github.io/thesis-blog"
 
