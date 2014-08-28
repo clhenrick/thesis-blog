@@ -20,10 +20,17 @@ This is Chris Henrick's blog documenting his thesis process and progress for the
 *To Do...*
 
 ## Domain(s)
+The domains my work are situated in:  
 
-The domains my work is situated in are **Digital Cartography**, **Geographic Information Systems** and **Participatory Mapping.**
+- Digital Cartography 
+- Geographic Information Science 
+- Participatory Mapping
 
 ## Keywords
+Keywords relating to my domain:  
+
 - Critical Cartography
 - Counter Mapping
 - Interactive Data-Visualization
+- Geographic Information Systems
+- Para-Empiricism
