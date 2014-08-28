@@ -3,7 +3,7 @@ layout:     post
 title:      Been There, Done That
 date:       2014-08-28 
 summary:    Looking at former MFA DT work as precedents.
-categories: test
+categories: Precedents
 ---
 
 Our first assignment is to look at work that MFA DT students have accomplished in previous years that relates to our thesis domain. Here are a few that stood out or resonated with my interests which I see as precedents:
