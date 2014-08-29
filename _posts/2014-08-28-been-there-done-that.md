@@ -12,7 +12,7 @@ Our first assignment is to look at work that MFA DT students have accomplished i
 2014  
 by [Salome Asega](https://twitter.com/suhlomay)
 
-![crown heights mic](http://mfadt.parsons.edu/2014/wp-content/uploads/2014/03/photo-2.jpg)
+![crown heights mic]({{ site.url }}/img/crown-heights-mic.jpg)
 
 *The Crown Heights Mic is a broadcast network collaboratively built by neighborhood stakeholders and residents. Through several sound funnels scattered around the neighborhood, we are able to hear the health of our neighborhood through each other's voices. These sound funnels are planted on the side of buildings and strategically mapped in front of the sites we already congregate--schools, religious centers, and libraries. This network creates a safe and anonymous forum that is determined, used, and sustained by those of us present and on the streets.*
 
