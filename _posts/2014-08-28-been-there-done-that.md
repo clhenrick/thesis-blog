@@ -22,7 +22,7 @@ Salome's work has dealt with using participatory mapping to contest the process 
 2014  
 by [Patricio González Vivo](http://www.patriciogonzalezvivo.com/)
 
-![skylines](/img/skylines-patricio.jpg)
+![skylines](img/skylines-patricio.jpg)
 
 *We look at the horizon and see a skyline, the place where the earth and sky touch. This skyline is defined by the particular position of the observer - seeing through technical devices allows us to look beyond our perception into different qualities of time and space.*
 
@@ -38,7 +38,7 @@ Patricio's work deals with themes of manipulating and utilizing data in experime
 2013  
 by [Shankari Murali](http://shankarimurali.com/about/)
 
-![you are not here](/img/you-are-not-here.jpg)
+![you are not here](img/you-are-not-here.jpg)
 
 *“You are Not here” seeks to represent urban spaces through a spectrum of lenses. Focussing on Dharavi, an informal township in Mumbai, it analyses the different spatial phenomena and practices associated with the space. Inspired by Henri Lefebvre’s lived-perceived-conceived triad, the lenses chosen to represent Dharavi are: the everyday, the spectacle and the imaginary. The everyday represents the space of the subject through the lens of a postman who deals with the everyday practicalities and difficulties concerned with delivering letters to the inhabitants of the settlement. The spectacle represents the objectified subject, seen and sold to the slum-tourist. The imaginary represents the objectified space, divided and distributed to planners who conceive new visions for the space.*
 
