@@ -32,7 +32,7 @@ by [Patricio González Vivo](http://www.patriciogonzalezvivo.com/)
 
 - *Skylines 03: postcards revealing the invisible information of a city that is otherwise trapped inside corporate databases, freeing private information collected from public spaces.*
 
-Patricio's work deals with themes of manipulating and utilizing data in experimental methods with tools such as Open Frameworks and Raspberry Pi. In particular his project [Skylines III](https://vimeo.com/89982874) hacked the Google Maps API to create a ghostly skeleton of NYC. Reappropriating mapping tools for uses in which they were not originally intended is an important part of areas in contemporary cartography such as counter mapping.
+Patricio's work deals with themes of manipulating and utilizing data in experimental methods with tools such as Open Frameworks and Raspberry Pi. In particular his project [Skylines III](https://vimeo.com/89982874) demonstrates using data he hacked from the Google Maps API to create a ghost like skeleton of NYC. Reappropriating technology for uses in which it was not originally intended is an important area in digital cartography I am interested in. Other hacks artists have done include using Google Maps Street View for example.
 
 ## [You Are Not Here](http://shankarimurali.com/1/)
 2013  
