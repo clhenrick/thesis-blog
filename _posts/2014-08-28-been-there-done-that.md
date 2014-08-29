@@ -12,17 +12,17 @@ Our first assignment is to look at work that MFA DT students have accomplished i
 2014  
 by [Salome Asega](https://twitter.com/suhlomay)
 
-![crown heights mic]({{ site.url }}/img/crown-heights-mic.jpg)
+![crown heights mic]({{ site.url }}/assets/crown-heights-mic.jpg)
 
 *The Crown Heights Mic is a broadcast network collaboratively built by neighborhood stakeholders and residents. Through several sound funnels scattered around the neighborhood, we are able to hear the health of our neighborhood through each other's voices. These sound funnels are planted on the side of buildings and strategically mapped in front of the sites we already congregate--schools, religious centers, and libraries. This network creates a safe and anonymous forum that is determined, used, and sustained by those of us present and on the streets.*
 
-Salome's work has dealt with using participatory mapping to contest the process of gentrification in the Crown Heights neighborhood of Brooklyn, NY through the group [Sidewalk Assembly](http://sidewalkassembly.com/about) which she co-directs. Additionally Salome wrote a [research paper](../pdf/Asega_PAR_Final.pdf) for the class *Participatory Research and Social Inquiry* on the  methods she used around her thesis which I look forward to reading. Participatory mapping (and social justice in general) is a theme I am interested in focusing on within my own thesis, as it has been hailed as a solution to making the process of mapping more inclusive.
+Salome's work has dealt with using participatory mapping to contest the process of gentrification in the Crown Heights neighborhood of Brooklyn, NY through the group [Sidewalk Assembly](http://sidewalkassembly.com/about) which she co-directs. Additionally Salome wrote a [research paper]({{ site.url }}assets/Asega_PAR_Final.pdf) for the class *Participatory Research and Social Inquiry* on the  methods she used around her thesis which I look forward to reading. Participatory mapping (and social justice in general) is a theme I am interested in focusing on within my own thesis, as it has been hailed as a solution to making the process of mapping more inclusive.
 
 ## [Skylines](http://mfadt.parsons.edu/2014/project/skylines)
 2014  
 by [Patricio González Vivo](http://www.patriciogonzalezvivo.com/)
 
-![skylines]({{ site.url }}/img/skylines-patricio.jpg)
+![skylines]({{ site.url }}/assets/skylines-patricio.jpg)
 
 *We look at the horizon and see a skyline, the place where the earth and sky touch. This skyline is defined by the particular position of the observer - seeing through technical devices allows us to look beyond our perception into different qualities of time and space.*
 
@@ -38,7 +38,7 @@ Patricio's work deals with themes of manipulating and utilizing data in experime
 2013  
 by [Shankari Murali](http://shankarimurali.com/about/)
 
-![you are not here]({{ site.url }}/img/you-are-not-here.jpg)
+![you are not here]({{ site.url }}/assets/you-are-not-here.jpg)
 
 *“You are Not here” seeks to represent urban spaces through a spectrum of lenses. Focussing on Dharavi, an informal township in Mumbai, it analyses the different spatial phenomena and practices associated with the space. Inspired by Henri Lefebvre’s lived-perceived-conceived triad, the lenses chosen to represent Dharavi are: the everyday, the spectacle and the imaginary. The everyday represents the space of the subject through the lens of a postman who deals with the everyday practicalities and difficulties concerned with delivering letters to the inhabitants of the settlement. The spectacle represents the objectified subject, seen and sold to the slum-tourist. The imaginary represents the objectified space, divided and distributed to planners who conceive new visions for the space.*
 
