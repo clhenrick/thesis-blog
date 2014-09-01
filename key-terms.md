@@ -10,3 +10,4 @@ permalink: /key-terms/
 - Interactive Data-Visualization
 - Geographic Information Systems
 - Para-Empiricism
+- Participatory Mapping
