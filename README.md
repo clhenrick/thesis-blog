@@ -6,7 +6,7 @@ Blog running on [Jekyll](http://jekyllrb.com/) for documenting my thesis process
 ### Jekyll Theme
 I'm using the [Pixyll Theme](http://www.pixyll.com/) by [John Otander](https://github.com/johnotander), with some additional custom tweaks :) 
 
-### Setting Up Jekyll in using Github Projects Pages
+### Setting Up Jekyll using Github Projects Pages
 In addition to your `github-username.github.io` repo that automatically maps to the root url (http://github-username.github.io), you can serve up sites by using a `gh-pages` branch for other repos so they're available at `github-username.github.io/repo-name`.
 
 This will require you to modify the `baseurl` option in the _config.yml file like so:
