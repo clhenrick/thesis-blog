@@ -59,3 +59,16 @@ by [Jonathan Baldwin](http://jrbaldwin.com/)
 > Tidepools evolved over months of community meetings, brainstorming sessions and feedback through a forum on the WiFi network. Creating and sharing custom maps emerged from the desire to plot Alerts of where police “stop and frisks” were occurring. Broken building signs led to integration of the Open311 civic reporting tool. Bus arrival alerts came from the sparse, inconsistent public transportation in the area. Spreading awareness of locations and times of Upcoming Meetings & Events soon followed.
 
 > For long term networks, API aggregation onto a global map and a community app marketplace stimulate a pan-regional, ecosystem of sharing. To counteract the instability of wireless grassroots networks past the community level, metropolitan and policy involvement is encouraged.
+
+Jonathan's [Tide Pools](http://tidepools.co/) project is relevant to my domain for it's use of participatory research, civic engagement and open source mapping technology. Additionally Tide Pools proved to be an extremely useful asset following the destruction of Super Storm Sandy on October of 2012 in Red Hook, Brooklyn. Though the mesh network was not originally intended to assist vulnerable areas such as those prone to flooding, it assisted aid and relief workers during recovery:
+
+> On October 29, 2012, Superstorm Sandy devastated low-lying Red Hook along with 
+much of the surrounding region. Amid power outages and flooding, the need for access 
+to communications systems for information about what was happening and where help 
+was needed became crucial. The RHI building was one of the few locations that had 
+managed to keep power and, as a result, RHI WiFi had stayed up through the storm. In 
+the days immediately following the storm, up to 300 people per day were accessing the 
+network to communicate with loved ones, learn what was happening in the rest of the 
+city, and seek recovery assistance.
+
+ One of my primary interests is how technology can improve life and solve problems in urban areas, particularly in places that have been historically marginalized by city officials and bureaucracies.
