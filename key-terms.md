@@ -21,11 +21,15 @@ Refers to both software and an area of study (often distinguished from the softw
 - **Geospatial Data:**  
 
 - **The OpenStreetMap Project (OSM):**  
+A mapping platform that allows for the contribution of geospatial data from anyone anywhere in the world. OSM can be thought of the "Wikipedia" version of Google Maps with the exception that all of its data is modifiable and downloadable by anyone for free [[4][4]].
 
 - **Para-Empiricism:**  
+A term coined by Annette Kim of MIT's Sidewalk Laboratory (SLAB) [[5][5]] which states that no data is free from bias, subjectivity or human error. Thus data should never be viewed as objective.
 
 - **Participatory Mapping:**  
 
 [1]: http://en.wikipedia.org/wiki/Counter-mapping#cite_note-1
 [2]: http://www.goodreads.com/book/show/1042943.The_Power_of_Maps
 [3]: http://en.wikipedia.org/wiki/Critical_cartography
+[4]: http://www.openstreetmap.org/about
+[5]: http://slab.scripts.mit.edu/wp/
