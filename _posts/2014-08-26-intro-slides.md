@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Intro Slides
-date:       2014-08-28 
+date:       2014-08-26 
 summary:    Introducing myself to Thesis Studio One.
 categories: Presentations
 ---
