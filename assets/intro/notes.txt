@@ -1,0 +1,64 @@
+# thesis studio one
+assignment: introduction
+
+## Brief:
+
+Please prepare a short slide deck (no more than 12 slides please, fewer if possible) that includes:
+
+- Your favorite project (it doesn't have to be your best, but that would be great too). 
+- A few slides depicting things you know how to do really, really, well.
+- Technologies you love.
+- People you admire.
+- A piece of content (media, sound, writing, etc.) that relates to the field or domain you want to situate your thesis in.
+- Precedents for the kind of work you want to make.
+
+### Favorite Project: 
+- story map? Neighborhood game?
+
+### things I know how to do well:
+- work with geospatial data: process, analyze and visualize it.
+- cartography, both static and dynmaic
+- work with API’s
+- code in front end: HTML, CSS & Javascript
+- write academically
+
+### Technologies
+- Terminal
+- GitHub
+- GDAL
+- Leaflet JS
+- TileMill
+- CartoDB
+
+### People:
+- Kelso
+- Migurski
+- Rebecca Solnit
+- Laura Kurgan
+- Annette Kim
+- Katherine Harmon
+- Dennis Wood 
+- Kate McLean
+- CFA
+
+### Piece of Content relating to my domain:
+- Mapping and it’s Discontents symposium last November
+- was critical reflection on cartography, data viz and the democratization of the field
+- who uses maps? In a lot of cases it’s city planners, not people. 
+- What don’t maps show? What do they deliberately or unintentionally leave out?
+- concept of “para empiricism”; that no data is free from human bias and thus should not be considered objective.
+- ethics of data-viz
+- mixed methods approach: complementing / countering quantitative data analysis with on the ground real world humanistic qualitative data analsyis
+- humanistic cartography
+
+### Precedents:
+- Cartography’s history / legacy, specifically as a tool of the state
+- Rebecca Solnit’s city atlases
+- Work by Stamen, NY Times Graphics Dept., National Geographic, Eric Fischer and others
+- Smell Map
+- Map Hacks, like Patricio’s Point Cloud City
+
+### Books
+- Map as Art
+- Else/where: mapping new cartographies of networks and territories
+- The Power of Maps

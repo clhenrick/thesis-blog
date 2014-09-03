@@ -1,0 +1,179 @@
+<!DOCTYPE html><html><head><title>Thesis One Intro</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing:1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  position: relative;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: hsl(300, 50%, 50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,50%,0.8);
+  opacity: 0.6;
+}
+
+span {
+  position: relative;
+}
+
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), cur = 0, ti;
+    if (!s) return;
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n], t;
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            // document.body.style.webkitFilter = "opacity(0.8)";
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        t = parseInt(e.getAttribute('time-to-next') || 0, 10);
+        if (t > 0) ti = window.setTimeout(fwd, (t * 1000));
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 2) + 'px';
+            if (i < 0) break;
+        }
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++cur % (s.length)); };
+    function fwd() { go(Math.min(s.length - 1, ++cur)); }
+    function rev() { go(Math.max(0, --cur)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39) fwd();
+        if (e.which === 37) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e) {
+            var x1 = e.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+};
+</script></head><body>
+<div class="center">Hello Class</div>
+<div>My name is <em>Chris</em></div>
+<div><video  autoplay controls loop src="/Users/chrislhenrick/Cartography/projects/GISEC/CCA_talk_06_19_2014/videos/pct-thru-hike-map-story.mp4"></video></div>
+<div><em style="color:hsl(320, 50%, 50%); font-weight:600; text-transform: uppercase;">Things I know well:</em><br><br>
+  <span style="color:hsl(100,50%,60%); left:10%;">> data data data</span><br>
+  <span style="color:hsl(150,50%,60%); left:10%;">> maps maps maps</span><br>
+  <span style="color:hsl(200,50%,60%); left:10%;">>  web web web</span>
+  <br><br>
+</div>
+<div><video autoplay controls loop src=" /Users/chrislhenrick/Cartography/projects/GISEC/CCA_talk_06_19_2014/videos/guess-that-nyc-hood.mp4"></video></div>
+<div><em style="color:hsl(320,50%,50%); font-weight:600; text-transform: uppercase;">Technologies i <3:</em><br><br>
+  <span style="color:hsl(36, 50%, 50%);">- Leaflet JS</span>
+  <span style="color:hsl(72, 50%, 50%);">- Python</span>
+  <span style="color:hsl(108, 50%, 50%);">- SQL</span>
+  <span style="color:hsl(144, 50%, 50%);">- Node JS</span>
+  <span style="color:hsl(180, 50%, 50%);">- D3 JS</span>
+  <span style="color:hsl(216, 50%, 50%);">- TileMill</span>
+  <span style="color:hsl(252, 50%, 50%);">- GitHub</span>
+  <span style="color:hsl(288, 50%, 50%);">- GDAL / OGR2OGR</span>
+  <span style="color:hsl(324, 50%, 50%);">- Terminal</span>
+  <span style="color:hsl(360, 50%, 50%);">- QGIS</span>
+</div>
+<div><img src="img/cartodb-home.jpg"><em>CartoDB</em></div>
+<div>
+  <em style="color:hsl(320,50%,50%); font-weight:600; text-transform: uppercase;">People I admire:</em><br><br>
+  <span style="color:hsl(120,50%,50%);">- Nathaniel Kelso</span>
+  <span style="color:hsl(40,50%,50%);">- Mike Migurski</span>
+  <span style="color:hsl(80,50%,50%);">- Rebecca Solnit</span>
+  <span style="color:hsl(0,50%,50%);">- Laura Kurgan</span>
+  <span style="color:hsl(280,50%,50%);">- Annette Kim</span>
+  <span style="color:hsl(200,50%,50%);">- Katherine Harmon</span>
+  <span style="color:hsl(240,50%,50%);">- Dennis Wood </span>
+  <span style="color:hsl(160,50%,50%);">- Kate McLean</span>
+</div>
+<div>
+  <br><br>
+  <img style="position:relative; left: 500px;" src="img/mapping-discontents_poster.jpg">
+</div>
+<div><em style="color:hsl(320, 50%, 50%); font-weight:600; text-transform: uppercase;">Precedents:</em><br><br>
+  <span style="left:10%; color:hsl(100, 50%, 50%);">> Cartography’s history / legacy</span><br><br>
+  <span style="left:10%; color:hsl(150, 50%, 50%);">> Rebecca Solnit’s city atlases</span><br><br>
+  <span style="left:10%; color:hsl(200, 50%, 50%);">> Work by Stamen, NY Times Graphics Dept., National Geographic, Eric Fischer, etc.</span><br><br>
+  <span style="left:10%; color:hsl(100, 50%, 50%);">> Map Hacks, like <a href="#">Patricio's</a></span>
+  <br><br>
+</div>
+<div><img src="img/redlining-map-small.jpg"></div>
+<div><img src="img/LA-Crime-map.png"></div>
+<div><video style="position:relative; left:15%;" autoplay controls loops src="/Users/chrislhenrick/Cartography/projects/GISEC/CCA_talk_06_19_2014/videos/Smellmap+Amsterdam©KateMcLean2014-HD.mp4"></video></div>
+<div><br><img style="position:relative; top: 50%;" src="img/where-dey-at-bounce-map.jpg"></div>
+<div><video style="position:relative; left:15%;" autoplay controls loop src="/Users/chrislhenrick/Cartography/projects/GISEC/CCA_talk_06_19_2014/videos/Skylines+III-+Point+Cloud+City-HD.mp4"></video></div>
+<div class="center"><em>The End</em></div>
