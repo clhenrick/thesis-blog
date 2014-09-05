@@ -3,7 +3,7 @@ layout:     post
 title:      Social Module Workout Session
 date:       2014-09-04
 summary:    Brainstorming in class for the social module.
-categories: Module-Workout
+categories: social-module
 ---
 
 Working with a partner we did a "workout" or brainstorming session for the social module assignment. [Gabrielle Patacsil](www.linkedin.com/pub/gabrielle-patacsil/8/275/135) and I worked together on this. The following is what I gathered for my thesis domains:
