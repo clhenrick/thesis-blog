@@ -58,6 +58,7 @@ __Conferences & Organizations:__
 - APA
 - AAG
 - NICAR 
+- GIS Stack Exchange
 
 __Companies & Non-Profits:__
 
