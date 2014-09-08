@@ -1,0 +1,219 @@
+<!DOCTYPE html><html><head><title></title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing:1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  position: relative;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: hsl(300, 50%, 50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,50%,0.8);
+  opacity: 0.6;
+}
+
+span {
+  position: relative;
+}
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), cur = 0, ti;
+    if (!s) return;
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n], t;
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        t = parseInt(e.getAttribute('time-to-next') || 0, 10);
+        if (t > 0) ti = window.setTimeout(fwd, (t * 1000));
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 2) + 'px';
+            if (i < 0) break;
+        }
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++cur % (s.length)); };
+    function fwd() { go(Math.min(s.length - 1, ++cur)); }
+    function rev() { go(Math.max(0, --cur)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39) fwd();
+        if (e.which === 37) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e) {
+            var x1 = e.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+};
+</script></head><body>
+<div>MFA DT <br> Thesis Studio I<br><em>Social Module</em></div>
+<div>
+  <em>Domains Related to Counter Mapping<br> + Critical Cartography:</em>
+<ul>
+  <li>GIS</li>
+  <li>Cartography</li>
+  <li>Social Justice</li>
+  <li>social media</li>
+  <li>critical theory</li>
+  <li>influence of &amp; access to technology</li>
+  <li>local government</li>
+  <li>humanitarian aid (HOT)</li>
+  <li>mobile / location based services</li>
+  <li>Civic Engagement</li>
+  <li>Researchers</li>
+  <li>Policy Analysts</li>
+  <li>Urban Planners</li>
+  <li>Activists</li>
+  <li>Environmentalists</li>
+  <li>Academics</li>
+  <li>Urbanists &amp; Civic Hackers</li>
+  <li>Non-profits</li>
+</ul>
+</div>
+<div>
+  <em>Organizations + Conferences:</em>
+  <ul>
+  <li>NACIS</li>
+  <li>SOTM / OSM</li>
+  <li>Geo NYC</li>
+  <li>Beta NYC</li>
+  <li>Maptime (NYC)</li>
+  <li>Mapping and its Discontents</li>
+  <li>Anti-eviction Mapping project</li>
+  <li>SLAB MIT</li>
+  <li>Where Camp</li>
+  <li>ESRI Users Conf.</li>
+  <li>Visualized</li>
+  <li>FOSS4G</li>
+  <li>APA</li>
+  <li>AAG</li>
+  <li>NICAR </li>
+  <li>GIS Stack Exchange</li>
+</ul>
+</div>
+<div>
+  <em>Companies + Non-Profits:</em>
+  <ul>
+  <li>Stamen Design</li>
+  <li>Greeninfo Network</li>
+  <li>596 Acres</li>
+  <li>Code For America</li>
+</ul>
+</div>
+<div>
+  <em>People to Interview:</em>
+  <ul>
+  <li>Alyssa Wright</li>
+  <li>Nathaniel Kelso</li>
+  <li>Mike Migurski</li>
+  <li>? from Anti-Eviction Mapping Project</li>
+  <li>Annette Kim</li>
+  <li>Rebecca Solnit</li>
+  <li>Dennis Wood</li>
+  <li>Chris Wong</li>
+</ul>
+</div>
+<div>
+  <a href="http://cdb.io/1xn7bFv">PROTOTYPE</a>
+</div>
+<div>
+  <em>Alpha Shapes</em>
+  <br><br>
+  <img src="img/alpha-shapes-gif.gif">
+</div>
+<div>Photos containing<br> <em>WOE id</em> + <br><em>Lat</em> + <em>Lon</em></div>
+<div>
+  <pre><em>Output</em></pre>
+  <img src="img/flickr-alphas.jpg">
+</div>
+<div class="center"><img height="1000" src="img/map-of-a-tweet.png"><em>Geotagged Tweets</em></div>
+<div>What can <em>data</em> from <em>social media</em> tell us about <em>place</em>?</div>
+<div><a href="http://iknowwhereyourcatlives.com/cat/8435deebc0">I know where your cat lives!</a></div>
+<div class="center" style="font-style: italic;">Fin</div>
+<!-- <div style="width:960">
+  <em>Output</em>
+  <br><br>
+  <img style="float:left; display:inline-block;" width="480" height="480" src="img/alpha-shapes-flickr01-western-europe.jpg"><br>
+  <img style="float:left display:inline-block;" width="480" height="480" src="img/alpha-shapes-flickr02-vietnam.jpg"><br>
+  <img width="480" height="480" src="img/alpha-shapes-flickr03-texas.jpg"><br>
+  <img width="480" height="480" src="img/alpha-shapes-flickr04-london.jpg"><br>
+  <img width="480" height="480" src="img/alpha-shapes-flickr05-mission-district.jpg"><br>
+</div> -->
