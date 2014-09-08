@@ -30,7 +30,7 @@ The process in which data is given a spatial reference to the physical world. Th
 A method of descriptive stastics that allows for viewers to visually inspect different aspects of multidimensional datasets interactively. Interaction in data visualization has been made increasingly popular in the past decade through advancements in web technology such as in modern web browsers and computer programming libraries such as D3 JS. A significant portion of this field overlaps with digital cartography where thematic maps are made to be dynamic and/or interactive.
 
 - **Map Projection:**  
-
+ is a systematic transformation of the latitudes and longitudes of locations on the surface of a sphere or an ellipsoid into locations on a plane. Map projections are necessary for creating maps. All map projections distort the surface in some fashion. Depending on the purpose of the map, some distortions are acceptable and others are not; therefore different map projections exist in order to preserve some properties of the sphere-like body at the expense of other properties. There is no limit to the number of possible map projections. [[6][6]]
 
 - **Open Data:**   
 Data that is publically available and accessible with varying licenses to either the public domain or creative commons.  Such data typically comes from government agencies at various levels (city, state, federal) but may also be released by other organizations and companies. The open-data movement sees 
@@ -44,8 +44,12 @@ A term coined by Annette Kim of MIT's Sidewalk Laboratory (SLAB) [[5][5]] which 
 - **Participatory Mapping:**  
 Mapping processes that involve empowering non-experts and/or community members to contribute to the mapping process using either analog (ex: [Field Papers](http://fieldpapers.org/)) or digital (mobile, GPS) techniques. This technique may also be refered to as *Public Participation Geographic Information Systems.* 
 
+- **Reverse Geocoding:**  
+The process of determining the place name(s) from a coordinate position on the globe. For a set of latitude and longitude coordinates determine what the name of each level of geography this point is contained in (eg: neighborhood, city, county, state / province, country). This is a common technology used by social media companies such as Four Square  to determine a user's location when they "check in" at a given venue or by Flickr when a user's photo is geotagged.
+
 [1]: http://en.wikipedia.org/wiki/Counter-mapping#cite_note-1
 [2]: http://www.goodreads.com/book/show/1042943.The_Power_of_Maps
 [3]: http://en.wikipedia.org/wiki/Critical_cartography
 [4]: http://www.openstreetmap.org/about
 [5]: http://slab.scripts.mit.edu/wp/
+[6]: http://en.wikipedia.org/wiki/Map_projection
