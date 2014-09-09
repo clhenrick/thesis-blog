@@ -130,63 +130,66 @@ window.onload = function() {
 <ul>
   <li>GIS</li>
   <li>Cartography</li>
-  <li>Social Justice</li>
-  <li>social media</li>
-  <li>critical theory</li>
-  <li>influence of &amp; access to technology</li>
-  <li>local government</li>
-  <li>humanitarian aid (HOT)</li>
-  <li>mobile / location based services</li>
+  <li style="color:yellow">Social Justice</li>
+  <li style="color:yellow">Narrative</li>
+  <li style="color:yellow">Social Media</li>
+  <li>Critical Theory</li>
+  <li style="color:yellow">The influence of &amp; access to technology (Digital Divide)</li>
+  <li>Humanitarian Aid</li>
+  <li>Mobile &amp; Location Based Services</li>
   <li>Civic Engagement</li>
-  <li>Researchers</li>
-  <li>Policy Analysts</li>
-  <li>Urban Planners</li>
-  <li>Activists</li>
-  <li>Environmentalists</li>
-  <li>Academics</li>
-  <li>Urbanists &amp; Civic Hackers</li>
+  <li>Urban Planning</li>  
   <li>Non-profits</li>
 </ul>
 </div>
 <div>
   <em>Organizations + Conferences:</em>
   <ul>
-  <li>NACIS</li>
-  <li>SOTM / OSM</li>
+  <li style="color:yellow">NACIS</li>
+  <li>OpenStreetMap Project &amp; State Of The Map (OSM Conf.) </li>
   <li>Geo NYC</li>
   <li>Beta NYC</li>
   <li>Maptime (NYC)</li>
-  <li>Mapping and its Discontents</li>
-  <li>Anti-eviction Mapping project</li>
+  <li style="color:yellow">Mapping and its Discontents Symposium</li>
+  <li>Transportation Planners</li>
+  <li>Researchers</li>
+  <li style="color:yellow">Policy Analysts</li>
+  <li style="color:yellow">Activists</li>
+  <li>Environmentalists</li>
+  <li>Academics</li>
+  <li style="color:yellow">Urbanists &amp; Civic Hackers</li>
   <li>SLAB MIT</li>
   <li>Where Camp</li>
   <li>ESRI Users Conf.</li>
-  <li>Visualized</li>
-  <li>FOSS4G</li>
+  <li>Visualized Conf.</li>
+  <li>FOSS4G &amp; Conf.</li>
   <li>APA</li>
   <li>AAG</li>
-  <li>NICAR </li>
+  <li>NICAR Conf.</li>
   <li>GIS Stack Exchange</li>
+  <li>local / city governments</li>
 </ul>
 </div>
 <div>
-  <em>Companies + Non-Profits:</em>
+  <em>Precedents: Companies + <br> Non-Profits</em>
   <ul>
-  <li>Stamen Design</li>
-  <li>Greeninfo Network</li>
+  <li style="color:yellow">Stamen Design</li>
+  <li style="color:yellow">Greeninfo Network</li>
   <li>596 Acres</li>
   <li>Code For America</li>
+  <li style="color:yellow">Anti-eviction Mapping project</li>
+  <li>Humanitarian OSM Team (HOT)</li>
 </ul>
 </div>
 <div>
   <em>People to Interview:</em>
   <ul>
   <li>Alyssa Wright</li>
-  <li>Nathaniel Kelso</li>
+  <li style="color:yellow">Nathaniel Kelso</li>
   <li>Mike Migurski</li>
-  <li>? from Anti-Eviction Mapping Project</li>
+  <li>(someone) from Anti-Eviction Mapping Project SF</li>
   <li>Annette Kim</li>
-  <li>Rebecca Solnit</li>
+  <li style="color:yellow">Rebecca Solnit</li>
   <li>Dennis Wood</li>
   <li>Chris Wong</li>
 </ul>
@@ -195,11 +198,57 @@ window.onload = function() {
   <a href="http://cdb.io/1xn7bFv">PROTOTYPE</a>
 </div>
 <div>
+  <pre>
+    --- clean up:  
+    DELETE FROM tweets WHERE lat IS NULL
+    OR lon IS NULL
+
+    DELETE FROM tweets WHERE lat = ''
+
+    --- get rid of null island:
+    DELETE FROM tweets WHERE lat = '0' AND lon = '0'
+
+  </pre>
+</div>
+<div>
+  <pre>
+    --- format the date-time data
+    ALTER TABLE tweets 
+    ADD COLUMN time_cdb timestamp;
+
+    UPDATE tweets 
+    SET time_cdb = to_timestamp(
+      time_normalized, 'YYYY-MM-DD HH24:MI:SS'
+    )
+
+    --- select a date range:
+    SELECT * from tweets_2014_09_04
+    WHERE time_cdb 
+    BETWEEN '2014-09-04T14:38:00Z' 
+    AND '2014-09-04T14:48:00Z'
+  </pre>
+</div>
+<div>
+  <pre>
+    --- select features that DO NOT intersect
+    SELECT
+      n.cartodb_id,
+      n.the_geom,
+      n.the_geom_webmercator
+    FROM
+    ne_10m_urban_areas AS n 
+    LEFT JOIN
+      flickr_shapes_localities AS f ON
+      ST_Intersects(n.the_geom, f.the_geom)
+    WHERE f.cartodb_id IS NULL
+  </pre>
+</div>
+<div>
   <em>Alpha Shapes</em>
   <br><br>
   <img src="img/alpha-shapes-gif.gif">
 </div>
-<div>Photos containing<br> <em>WOE id</em> + <br><em>Lat</em> + <em>Lon</em></div>
+<div>Flickr photos containing a<br> <em>WOE id</em> + <br><em>Lat</em> + <em>Lon</em></div>
 <div>
   <pre><em>Output</em></pre>
   <img src="img/flickr-alphas.jpg">
