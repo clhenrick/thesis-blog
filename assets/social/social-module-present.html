@@ -126,6 +126,14 @@ window.onload = function() {
 </script></head><body>
 <div>MFA DT <br> Thesis Studio I<br><em>Social Module</em></div>
 <div>
+  <em>Critical Cartography:</em>
+  New mapping practices that use cartography’s subjectivity and bias in an explicit fashion to create maps that are non-normative. This is of importace in relationship to both Cartography’s legacy as a political tool of nation-states to assert territory claims and borders. Maps historically were not explicit about their (map maker’s) intentionality but rather hidden under the “mask” of objectivity, science and accuracy [2]. CC is grounded in critical theory in the sense that the techniques used attempt to link geographic knowledge to power and political issues [3]. Also commonly refered to as “Radical Cartography.”
+</div>
+<div>
+  <em>Counter Mapping:</em>
+  Using the mapping process “to contest dominant power structures [in order to] further seemingly progressive goals [1].” This process was originally used in developing countries to promote land rights and resource uses of indigenous peoples but has recently been used in developed countries for practices such as mapping community assets in urban areas. Counter maps are typically used to adovocate for policy change in a “bottom up” manner and/or to “make the invisible visible.” An example of the latter would be a map of the oil infrastructure, corporate leasing of water rights and oil spills in the Gulf Coast; features which are not mapped on normative maps of this region.
+</div>
+<div>
   <em>Domains Related to Counter Mapping<br> + Critical Cartography:</em>
 <ul>
   <li>GIS</li>
@@ -171,7 +179,7 @@ window.onload = function() {
 </ul>
 </div>
 <div>
-  <em>Precedents: Companies + <br> Non-Profits</em>
+  <em>Precedents:<br> Companies + Non-Profits</em>
   <ul>
   <li style="color:yellow">Stamen Design</li>
   <li style="color:yellow">Greeninfo Network</li>
@@ -194,12 +202,27 @@ window.onload = function() {
   <li>Chris Wong</li>
 </ul>
 </div>
+<div><a href="http://cdb.io/1xn7bFv">PROTOTYPE</a></div>
+<div>What can <em>data</em> from <em>social media</em> tell us about <em>place</em>???</div>
+<div>Other Examples</div>
+<div><a href="http://iknowwhereyourcatlives.com/cat/8435deebc0">I know where your cat lives!</a></div>
+<div><img src="img/flickr-locals-tourists-eric-fischer.jpg"><em>Locals vs. Tourists</em></div>
+<div>The Data:</div>
+<div>Flickr photos containing a<br> <em>WOE id</em> + <br><em>Lat</em> + <em>Lon</em></div>
 <div>
-  <a href="http://cdb.io/1xn7bFv">PROTOTYPE</a>
+  <em>Alpha Shapes</em>
+  <br><br>
+  <img src="img/alpha-shapes-gif.gif">
 </div>
 <div>
+  <pre><em>Output</em></pre>
+  <img src="img/flickr-alphas.jpg">
+</div>
+<div class="center"><img height="1000" src="img/map-of-a-tweet.png"><em>Geotagged Tweets</em></div>
+<div>
+  <em>SQL</em>
   <pre>
-    --- clean up:  
+    --- clean up tweets:  
     DELETE FROM tweets WHERE lat IS NULL
     OR lon IS NULL
 
@@ -211,8 +234,9 @@ window.onload = function() {
   </pre>
 </div>
 <div>
+  <em>SQL</em>
   <pre>
-    --- format the date-time data
+    --- format the tweet date-time
     ALTER TABLE tweets 
     ADD COLUMN time_cdb timestamp;
 
@@ -229,8 +253,10 @@ window.onload = function() {
   </pre>
 </div>
 <div>
+  <em>SQL</em>
   <pre>
-    --- select features that DO NOT intersect
+    --- select Flickr features that 
+    --- DO NOT intersect Urban Areas
     SELECT
       n.cartodb_id,
       n.the_geom,
@@ -243,20 +269,6 @@ window.onload = function() {
     WHERE f.cartodb_id IS NULL
   </pre>
 </div>
-<div>
-  <em>Alpha Shapes</em>
-  <br><br>
-  <img src="img/alpha-shapes-gif.gif">
-</div>
-<div>Flickr photos containing a<br> <em>WOE id</em> + <br><em>Lat</em> + <em>Lon</em></div>
-<div>
-  <pre><em>Output</em></pre>
-  <img src="img/flickr-alphas.jpg">
-</div>
-<div class="center"><img height="1000" src="img/map-of-a-tweet.png"><em>Geotagged Tweets</em></div>
-<div>What can <em>data</em> from <em>social media</em> tell us about <em>place</em>???</div>
-<div><a href="http://iknowwhereyourcatlives.com/cat/8435deebc0">I know where your cat lives!</a></div>
-<div><img src="img/flickr-locals-tourists-eric-fischer.jpg"><em>Locals vs. Tourists</em></div>
 <div class="center" style="font-style: italic;">Fin.</div>
 <!-- <div style="width:960">
   <em>Output</em>
