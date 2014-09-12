@@ -17,4 +17,4 @@ This project is a first attempt at examining how cities are spatially represente
 The slides from my presentation are available [here]({{ site.url}}/assets/social/social-module-present.html). Use the ◀ ▶ keys to navigate.
 
 ## Design Brief
-*To Do...*
+View a PDF of the design brief [here]({{site.url}}/assets/henrick_social-module-design-brief.pdf).
