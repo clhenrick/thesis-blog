@@ -4,6 +4,9 @@ title: Works Cited
 permalink: /works-cited/
 ---
 
+- Andersen, Kurt and Simon Schama. [*Historian Simon Schama On Maps*](http://www.studio360.org/story/165059-historian-simon-schama-on-maps/) Studio 360. 9/28/2002  
+Retrieved 9/8/2014  
+
 - Bélairhttp, François. [*Everything You Always Wanted to Know About Alpha Shapes But Were Afraid to Ask*](http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/belair/alpha.html).  
 <!-- http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/belair/alpha.html   -->
 Retrieved 9/8/2014
