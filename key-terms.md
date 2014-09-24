@@ -32,8 +32,11 @@ A method of descriptive stastics that allows for viewers to visually inspect dif
 - **Map Projection:**  
  is a systematic transformation of the latitudes and longitudes of locations on the surface of a sphere or an ellipsoid into locations on a plane. Map projections are necessary for creating maps. All map projections distort the surface in some fashion. Depending on the purpose of the map, some distortions are acceptable and others are not; therefore different map projections exist in order to preserve some properties of the sphere-like body at the expense of other properties. There is no limit to the number of possible map projections. [[6][6]]
 
+- **Map Tiles:**  
+Refer to 256 x 256 square pixel images that form the basis of slippy maps (zoomable and panable web-maps). Map tiles are traditionally in raster format but new technology has allowed for vector tiles for improved rendering speed.
+
 - **Open Data:**   
-Data that is publically available and accessible with varying licenses to either the public domain or creative commons.  Such data typically comes from government agencies at various levels (city, state, federal) but may also be released by other organizations and companies. The open-data movement sees 
+Data that is publically available and accessible with varying licenses to either the public domain or creative commons.  Such data typically comes from government agencies at various levels (city, state, federal) but may also be released by other organizations and companies. 
 
 - **The OpenStreetMap Project (OSM):**  
 A mapping platform that allows for mapping the world through the contribution of geospatial data from anyone with access to the web. OSM is often compared to being the "Wikipedia" version of "Google Maps." What differentiates it from Google Maps is that all of its geospatial data is downloadable by anyone for free under a Creative Commons Open-database license [[4][4]].
@@ -46,6 +49,9 @@ Mapping processes that involve empowering non-experts and/or community members t
 
 - **Reverse Geocoding:**  
 The process of determining the place name(s) from a coordinate position on the globe. For a set of latitude and longitude coordinates determine what the name of each level of geography this point is contained in (eg: neighborhood, city, county, state / province, country). This is a common technology used by social media companies such as Four Square  to determine a user's location when they "check in" at a given venue or by Flickr when a user's photo is geotagged.
+
+- **Slippy Maps:**  
+The term coined by Cartographers that was originally given to web maps that first had seamless zooming and panning capabilities. The first "slippy map" is credited to Google Maps which improved upon web mapping technology from Map Quest which had limitations that limited user experience such as requiring a full page refresh when zooming and panning.
 
 [1]: http://en.wikipedia.org/wiki/Counter-mapping#cite_note-1
 [2]: http://www.goodreads.com/book/show/1042943.The_Power_of_Maps
