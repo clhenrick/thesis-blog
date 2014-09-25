@@ -3,7 +3,7 @@ layout:     post
 title:  Social Module
 date:       2014-09-08
 summary:    Social Module Prototype, Slides and Design Brief.
-categories: Presentations Social-module design-briefs
+categories: Presentations Social-module design-briefs prototypes
 ---
 <iframe src="//player.vimeo.com/video/105574235?title=0&amp;byline=0&amp;portrait=0" width="899" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/105574235">Cities, Fickr & Twitter</a> from <a href="http://vimeo.com/user23240262">Chris Henrick</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 

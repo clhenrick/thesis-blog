@@ -3,7 +3,7 @@ layout:     post
 title:      Methodological Module Workshop
 date:       2014-09-18
 summary:    Notes on in-class workshop.
-categories: Methodological-Module
+categories: Methodological-Module Workshops
 ---
 
 Today we had a workshop for the Methodological Module where we focused on the process our stakeholders typically work through in order to solve a problem or accomplish a goal. For my domain I decided to outline the process of cartographic design from both cartographers and counter-mappers. I found it useful to compare and contrast each of these to see where I can add to or augment the process of counter-mapping.
