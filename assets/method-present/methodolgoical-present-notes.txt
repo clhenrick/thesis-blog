@@ -1,0 +1,19 @@
+Methodological Model Presentation Notes
+=======================================
+
+- 5 minutes
+- main points
+
+- thinking about how to make the field of Cartography more democratic & humanistic
+- rather than mapping quantitative data began to think about mapping media
+- reiterated on previous idea: an idea for an app that makes it easy for people to collaboratively map media (photos, sound, video) from previous sources
+- looked at other mapping platforms for UI / UX precedence (Google, MapBox, CartoDB, OSM, etc.) these are generic / defaults
+- began paper prototyping based on a generic web-map UI to see what could be improved upon
+- problem: 
+  - generic UI design / UX interaction for showing media on maps isn’t done well (ie: showing images and videos inside popups or linking them to a side bar)
+  - process of making a map with media from varying sources isn’t easy to do, let alone collaboratively
+
+TO DO:
+- need to define user persona and niche (activists, community mapping, participatory GIS)
+- examining patterns of geolocating media (instagram, flickr, etc.)
+- develop paper prototype and user test
