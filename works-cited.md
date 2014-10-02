@@ -16,10 +16,17 @@ Retrieved 9/8/2014
 
 - Kendall, Len. [*Geocaching, Ingress, and Discovering Overlapping Gaming Communities.*](https://medium.com/best-thing-i-found-online-today/geocaching-ingress-and-discovering-overlapping-communities-47bdd2e3d099) July 14, 2014.  
 <!-- https://medium.com/best-thing-i-found-online-today/geocaching-ingress-and-discovering-overlapping-communities-47bdd2e3d099   -->
-Retrieved 9/10/2014
+Retrieved 9/10/2014.
 
 - Parker, Brenda. “Constructing Community Through Maps? Power and Praxis in Community Mapping.”
 The Professional Geographer 58.4 (2006): 470-484. Print.
+
+- Rankin, Bill. [*RadicalCartography.net*](http://www.radicalcartography.net/).
+
+- Reiss, Aaron. [*New York's Shadow Transit*](http://projects.newyorker.com/story/nyc-dollar-vans/)  
+The New Yorker. Retrieved 9/27/14.
+
+- Roberts, Jonathan. [Fantastic Maps](http://www.fantasticmaps.com/) Website.
 
 - Schulze, Jack. [*Here & There Influences*](http://berglondon.com/blog/2009/05/04/here-there-influences/)  
 Berg. May 4, 2009. Retrieved 9/18/14.

@@ -51,7 +51,7 @@ Mapping processes that involve empowering non-experts and/or community members t
 The process of determining the place name(s) from a coordinate position on the globe. For a set of latitude and longitude coordinates determine what the name of each level of geography this point is contained in (eg: neighborhood, city, county, state / province, country). This is a common technology used by social media companies such as Four Square  to determine a user's location when they "check in" at a given venue or by Flickr when a user's photo is geotagged.
 
 - **Slippy Maps:**  
-The term coined by Cartographers that was originally given to web maps that first had seamless zooming and panning capabilities. The first "slippy map" is credited to Google Maps which improved upon web mapping technology from Map Quest which had limitations that limited user experience such as requiring a full page refresh when zooming and panning.
+The term coined by Cartographers that was originally given to the first web maps that  were capable of providing a user experience of seamless zooming and panning. The first "slippy map" is credited to Google which improved upon web mapping technology from Map Quest. The previous technology limited user experience such as requiring a full page refresh when zooming and panning.
 
 [1]: http://en.wikipedia.org/wiki/Counter-mapping#cite_note-1
 [2]: http://www.goodreads.com/book/show/1042943.The_Power_of_Maps
