@@ -22,16 +22,16 @@ The user should be able to import geotagged photos in one of 3 methods:
 
 1. drag and dropping photos that are already geotagged.
 2. batch uploading multiple photos at a time that are already geotagged.
-3. manually setting the location.
+3. manually setting the location for an un-tagged photo.
 
-In steps one and two software will be able to extract a photo's latitude and longitude coordinates from the meta data.
+In steps one and two server side software will be able to extract a photo's latitude and longitude coordinates from the photo's meta data (exif-information). 
 
-The last step could be done in one of two ways:  
+The third option for manually setting a location could be accomplished by the user in one of two ways:  
 
-- enter the name of place (country, state/province, city, neighborhood).
-- interact with a web-map interface to add and place a marker.
+- the user enters the name of place (country, state/province, city, neighborhood).
+- the user interacts with a web-map interface to add and place a marker.
 
-This step could be done for single or multiple photos. More paper prototyping and user testing will help determine how to make this process more intuitive.
+The third option could be utilized for either single or multiple photos. More paper prototyping and user testing will help determine how to make this process more intuitive.
 
 ## Design Brief
-*to do*
+*to do...*
