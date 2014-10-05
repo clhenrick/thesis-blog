@@ -7,7 +7,7 @@ categories: methodological-module presentations prototypes design-briefs
 ---
 
 ## Presentaton
-Link to the presentation [here]({{site.url}}/assets/method-present/index.html).
+Link to the presentation is [here]({{site.url}}/assets/method-present/index.html).
 
 ## Prototype
 For this module I began to think about how to streamline the user experience of adding media to a map, or adding a spatial component to media. As a starting point I began to paper prototype an app:
@@ -34,4 +34,4 @@ The third option for manually setting a location could be accomplished by the us
 The third option could be utilized for either single or multiple photos. More paper prototyping and user testing will help determine how to make this process more intuitive.
 
 ## Design Brief
-*to do...*
+May be viewed / downloaded [here]({{site.url}}/assets/chenrick_method_design_brief.pdf).
