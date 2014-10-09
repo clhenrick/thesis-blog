@@ -9,4 +9,4 @@ url: "http://clhenrick.github.io/thesis-blog"
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 3
+paginate: 5
