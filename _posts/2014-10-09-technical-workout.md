@@ -3,7 +3,7 @@ layout:     post
 title:      Technical Module Workout
 date:       2014-10-09
 summary:    Brainstorming for the technical module.
-categories: technical-module
+categories: technical-module workshops
 ---
 
 ## Technical Requirement

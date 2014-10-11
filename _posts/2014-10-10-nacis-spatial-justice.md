@@ -3,7 +3,7 @@ layout:     post
 title:     Spatial Justice
 date:       2014-10-10
 summary:    Notes on a group discussion on maps, data and spatial justice from NACIS 2014.
-categories: technical-module
+categories: research
 ---
 
 **Notes on the Spatial Justice Workshop @ NACIS 2014**
