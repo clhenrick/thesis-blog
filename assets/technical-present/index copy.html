@@ -1,0 +1,180 @@
+<!DOCTYPE html><html><head><title></title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  font-family: "Comic-Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing:1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 300;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  position: relative;
+  /*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+  font-style: normal;
+  /*text-transform: uppercase;*/
+  letter-spacing: 10px;
+  font-weight: 500;
+  color: hsl(300, 50%, 50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  position: relative;
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,30%,0.8);
+  opacity: 0.8;
+}
+
+span, span em {
+  position: relative;
+  font-style: italic;
+}
+pre {
+  
+}
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), cur = 0, ti;
+    if (!s) return;
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n], t;
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        t = parseInt(e.getAttribute('time-to-next') || 0, 10);
+        if (t > 0) ti = window.setTimeout(fwd, (t * 1000));
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 2) + 'px';
+            if (i < 0) break;
+        }
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++cur % (s.length)); };
+    function fwd() { go(Math.min(s.length - 1, ++cur)); }
+    function rev() { go(Math.max(0, --cur)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39) fwd();
+        if (e.which === 37) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e) {
+            var x1 = e.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+};
+</script></head><body>
+<div class="center"><em>Technical Module</em></div>
+<div><span>What are the <em>tools</em> and <em>techniques?</em></span></div>
+<div><span>How does my work <em>intersect</em> with them?</span></div>
+<div>
+  <em>Tools:</em><br>
+    QGIS <em style="position:relative; top:0.25em;">*</em> 
+    illustrator <em style="position:relative; top:0.25em;">*</em> 
+    CartoDB <em style="position:relative; top:0.25em;">*</em> 
+    TileMill <em style="position:relative; top:0.25em;">*</em> 
+    Leaflet <em style="position:relative; top:0.25em;">*</em> 
+    Javascript <em style="position:relative; top:0.25em;">*</em> 
+    Python <em style="position:relative; top:0.25em;">*</em> 
+    HTML &amp; CSS <em style="position:relative; top:0.25em;">*</em> 
+    GDAL <em style="position:relative; top:0.25em;">*</em> 
+    Django <em style="position:relative; top:0.25em;">*</em> 
+    Node JS <em style="position:relative; top:0.25em;">*</em> 
+    D3
+</div>
+<div>
+  <em>Techniques:</em>
+  <ul style="position:relative; left: 5%;">
+    <li>geospatial relationships (GIS)</li><br>
+    <li>principles of cartographic design</li><br>
+    <li>geospatial data and formats</li>
+  </ul>
+</div>
+<div>
+  <em>Intersections</em>
+  <ul style="position:relative; left: 5%;">
+    <li>Counter Mapping</li>
+    <li>Open Source Software</li>
+    <li>Open Data</li>
+  </ul>
+</div>
+<div>
+  <span>Which are the most <em style="">challenging</em> and <em>important?</em></span>
+</div>
+<div>
+  <ul style="position:relative; left: 3%;">
+    <li>Working with &amp; analyzing geospatial data</li><br>
+    <li>Creating interactive map UI/UX using cartographic design</li>
+  </ul>
+</div>
+<div><span>What kinds of technical requirements are truly unique to your thesis?</span></div>
+<div>Geospatial <em style="position:relative; top:0.25em;">*</em> UI/UX <em style="position:relative; top:0.25em;">*</em> P.A.R. <em style="position:relative; top:0.25em;">*</em> Open Data</div>
+<div><span>Prototype</span></div>
+<div><em>Web App</em> to access <em>property transaction records</em></div>
+<div><span>Priority Points</span></div>
+<div>Access to data <em style="position:relative; top:0.25em;">*</em> Researching Qualitative Data <em style="position:relative; top:0.25em;">*</em> Empowering Communities</div>
