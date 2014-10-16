@@ -3,6 +3,28 @@ layout: page
 title: Works Cited 
 permalink: /works-cited/
 ---
+## Manifestos
+- [Data Will Help Us](http://datawillhelp.us/)
+
+## Maps
+- [The Refugee Project](http://www.therefugeeproject.org/), Ekene Ijeoma & Hyperakt
+- [New York’s Shadow Transit](http://projects.newyorker.com/story/nyc-dollar-vans/) Aaron Reiss
+- [OSM every line ever](#) Alan McConchie
+- [Mapping Manhattan, A Love (and sometimes hate) Story in Maps](http://mapyourmemories.tumblr.com/mappingmanhattan), Becky Cooper
+- [Metrography - London Tube Map to large scale collective mental map](http://benedikt-gross.de/log/2012/02/metrography-london-tube-map-to-large-scale-collective-mental-map/) Benedikt Groß.
+- [All Buildings in the Netherlands](http://code.waag.org/buildings/), Bert Spaan.
+- [The Big Atlas of LA Pools](http://benedikt-gross.de/log/2013/06/the-big-atlas-of-la-pools/), Joseph Lee & Benedikt Groß.
+- [The Limited Accessibility of Public Transport](http://mappable.info/blog/2014/2/8/accessibility), Julia Griehl, Patrick Stotz & Achim Tack.
+- [Sharjah InfoCart/Sharjah CityMap](http://publicgreen.com/projects/sharjah.html), Lize Mogel & Alexis Bhagat.
+- [Digital Matatus: Collaborative Research and Mapping for Nairobi’s Public Transit](http://www.digitalmatatus.com/), Sarah Williams and Wenfei Xu of the Civic Data Design Lab at MIT.
+- [Walking Loops](http://sarahnordean.com/work/#/walking-loops/), Sarah Nordean
+- [Open Green Map](http://www.opengreenmap.org/greenmap), Wendy Brawer
+
+### NY Times
+- [The Russia Left Behind](http://www.nytimes.com/newsgraphics/2013/10/13/russia/)
+- [Riding the New Silk Road](http://www.nytimes.com/newsgraphics/2013/07/21/silk-road/)
+
+## Publications
 - Abrams, Janet and Peter Hall, editors. [Else/Where: Mapping New Cartographies of Networks and Territories](http://www.upress.umn.edu/book-division/books/else-where) The University of Minnesota Press. 2005.
 
 - Andersen, Brett. [*Louisiana Loses Its Boot*](https://medium.com/matter/louisiana-loses-its-boot-b55b3bd52d1e) 9/08/2014. Retrieved on 9/15/14.
@@ -47,6 +69,8 @@ Print.
 - Straup Cope, Aaron. [*The Shape of Alpha*](http://code.flickr.net/2008/10/30/the-shape-of-alpha/). 10/08/2008  
 <!-- http://code.flickr.net/2008/10/30/the-shape-of-alpha/   -->
 Retrieved 9/8/2014  
+
+- Welling
 
 - Wood, Dennis. The Power of Maps. New York City: Guilford Publications, 1992. Print.
 
