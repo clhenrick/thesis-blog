@@ -75,8 +75,6 @@ Print.
 <!-- http://code.flickr.net/2008/10/30/the-shape-of-alpha/   -->
 Retrieved 9/8/2014  
 
-- Welling
-
 - Wood, Dennis. <span style="text-decoration:underline;">The Power of Maps.</span> New York City: Guilford Publications, 1992. Print.
 
 - Venetikidis, Aris [*Lost In Dublin*](http://www.venetikidis.com/ArisV/LostInDublin.html).  
