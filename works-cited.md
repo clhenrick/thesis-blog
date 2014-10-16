@@ -21,8 +21,10 @@ permalink: /works-cited/
 - [Open Green Map](http://www.opengreenmap.org/greenmap), Wendy Brawer
 
 ### NY Times
-- [The Russia Left Behind](http://www.nytimes.com/newsgraphics/2013/10/13/russia/)
-- [Riding the New Silk Road](http://www.nytimes.com/newsgraphics/2013/07/21/silk-road/)
+- [The Russia Left Behind](http://www.nytimes.com/newsgraphics/2013/10/13/russia/), Ellen Barry & NY Times team
+- [Riding the New Silk Road](http://www.nytimes.com/newsgraphics/2013/07/21/silk-road/), Shan Carter, Hannah Fairfield, And Derek Watkins.
+- [Snow Fall: The Avalanche at Tunnel Creek](http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek), John Branch; author. Hannah Fairfield, Xaquín G.V., Jon Huang, Wayne Kamidoi, Sam Manchester, Alan McLean, Jacky Myint, Graham Roberts, Joe Ward, Jeremy White and Josh Williams; graphics and design.
+- [Reshaping New York](http://www.nytimes.com/newsgraphics/2013/08/18/reshaping-new-york/), Ford Fessenden, Tom Giratikanon, Josh Keller, Archie Tse, Tim Wallace, Derek Watkins, Jeremy White and Karen Yourish.
 
 ## Publications
 - Abrams, Janet and Peter Hall, editors. [Else/Where: Mapping New Cartographies of Networks and Territories](http://www.upress.umn.edu/book-division/books/else-where) The University of Minnesota Press. 2005.
