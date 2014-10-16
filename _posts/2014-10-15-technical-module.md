@@ -7,4 +7,10 @@ categories: technical-module presentations
 ---
 
 ## Slides
-Slide show available [here]({{base.url}}/assets/technical-present/index.html)
+Slide show available [here]({{site.url}}/assets/technical-present/index.html)
+
+## Prototype
+*to do...*
+
+## Design Brief
+*to do...*
