@@ -14,6 +14,11 @@ Retrieved 9/8/2014
 <!-- http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/belair/alpha.html   -->
 Retrieved 9/8/2014
 
+- Donohue, Rich; Ate Porthuis, Taylor Shelton, John Czaplewski, Andy Woodruff. [On the Political Economy of the GeoJSON Format](https://medium.com/@rgdonohue/on-the-political-economy-of-the-geojson-format-8e7f38b9f5d8)  
+Medium. October 10, 2014. Retrieved Oct 11, 2014.
+
+- Hill, Andrew. [EPIC WIN FOR NYC’S OPEN DATA COMMUNITY! PLUTO IS FREE!](http://andrewxhill.com/cartodb-examples/scroll-story/pluto/#0) website. Accessed 10/14/14
+
 - Kendall, Len. [*Geocaching, Ingress, and Discovering Overlapping Gaming Communities.*](https://medium.com/best-thing-i-found-online-today/geocaching-ingress-and-discovering-overlapping-communities-47bdd2e3d099) July 14, 2014.  
 <!-- https://medium.com/best-thing-i-found-online-today/geocaching-ingress-and-discovering-overlapping-communities-47bdd2e3d099   -->
 Retrieved 9/10/2014.
@@ -27,6 +32,9 @@ The Professional Geographer 58.4 (2006): 470-484. Print.
 The New Yorker. Retrieved 9/27/14.
 
 - Roberts, Jonathan. [Fantastic Maps](http://www.fantasticmaps.com/) Website.
+
+- Sack, Carl. [Whither the Wikimap?](http://northlandia.wordpress.com/2014/10/05/whither-the-wikimap/)  
+October 5, 2014. Retrieved October 11, 2014.
 
 - Schulze, Jack. [*Here & There Influences*](http://berglondon.com/blog/2009/05/04/here-there-influences/)  
 Berg. May 4, 2009. Retrieved 9/18/14.
