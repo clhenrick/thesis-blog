@@ -3,7 +3,7 @@ layout:     post
 title:      Mapping & GIS as procrastination
 date:       2014-09-27
 summary:    Procrastinating on the methodological module prototype.
-categories: procrastination
+categories: procrastination portfolio-work
 ---
 
 While feeling nervous about having to make a paper prototype for my web app idea, I ended up making a map of something I wanted to do for a while; 311 noise complaints mapped by neighborhood in NYC. Of course I had to do this the hard way by using PostGIS (an extension for the Postgres database) rather than just doing it all in QGIS. I ended up calculating the number of complaints per square kilometer by neighborhood to make this map which I did render in QGIS just to make something quick and dirty:
