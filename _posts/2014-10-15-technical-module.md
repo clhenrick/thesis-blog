@@ -3,7 +3,7 @@ layout:     post
 title:      Technical Module
 date:       2014-10-15
 summary:    Slides, prototype and design brief for the technical module.
-categories: technical-module presentations
+categories: technical-module presentations design-briefs portfolio-work
 ---
 *last updated 10/19/14*
 
