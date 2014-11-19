@@ -6,6 +6,8 @@ summary:    Documenting the Prototype for the Conceptual Module.
 categories: conceptual-module prototypes portfolio-work
 ---
 
+*last updated: 11/18/14*
+
 ## Am I Rent Stabilized? website
 A significant component related to the issue of residential displacement from luxury development is that current rent stabilized units are being lost due to destabilization and erroneous practices by landlords. There is currently no system that makes sure landlords are reporting rent stabilized units to the local or state governments and charging the correct amount of rent to their tenants. Thus tenants or their lawyers must request their rent history from the New York State Division of Housing and Community Renewal (DHCR) and then file a complaint if they believe they are being over charged. Therefore the goal of the conceptual module is to create a simple one page, mobile friendly app to educate people about rent stabilization and how to find out if their apartment is rent stabilized. This app could be promoted as a go to guide about rent stabilization for tenants in NYC.
 
@@ -45,4 +47,4 @@ The next steps to finish developing the website are:
 - Finish designing the "take action" part of the website.
 - User test and submit to various community groups such as NWB, Prospect Park East Network, MTOPP, etc. for feedback.
 - Buy the domain name AmIRentStabilized.nyc and host the app online. This will be accomplished using GitHub's free web hosting.
-
+- One person suggested adding an option to determine if the building has been registered with DHCR, if it hasn't and the building is likely rent stabilized the user could be notified of this.
