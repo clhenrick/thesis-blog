@@ -1,0 +1,182 @@
+<!DOCTYPE html><html><head>
+<title>Thesis Studio One Final Presentation</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing:1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+}
+
+em, a {
+  position: relative;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: hsl(300, 60%, 50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,50%,0.8);
+  opacity: 0.6;
+}
+
+div.sub-category {
+  font-style: italic;
+}
+
+span {
+  position: relative;
+  font-style: italic;
+}
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), cur = 0, ti;
+    if (!s) return;
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n], t;
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        t = parseInt(e.getAttribute('time-to-next') || 0, 10);
+        if (t > 0) ti = window.setTimeout(fwd, (t * 1000));
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 2) + 'px';
+            if (i < 0) break;
+        }
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++cur % (s.length)); };
+    function fwd() { go(Math.min(s.length - 1, ++cur)); }
+    function rev() { go(Math.max(0, --cur)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39) fwd();
+        if (e.which === 37) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e) {
+            var x1 = e.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+};
+</script></head><body>
+<div class="center"><em>MFA DT<br>Thesis Proposal</em><h6>Chris Henrick</h6></div>
+
+<div class="center"><h1><em>Background</em></h1></div>
+
+<div class="center sub-category">1.<br> Domains</div>
+<div><em>Critical Cartography:</em><br>
+  New mapping practices that use cartography’s subjectivity and bias in an explicit fashion to create maps that are non-normative.</div>
+  <div><img src="img/the-midwest-bill-rankin_cropped.jpg"></div>
+<div><em>Counter Mapping:</em><br>Using the mapping process “to contest dominant power structures [in order to] further seemingly progressive goals.”</div>
+<div><img src="img/monarchs-queens-solnit.jpg"></div>
+<div><em>Critical GIS:</em><br>Acknowledging bias in geospatial data as well as in the processes of manipulating it.</div>
+<div><img src="img/locals-tourists-flickr-eric-fischer.jpg"></div>
+<div><em>Civic Tech:</em><br>Using technology and open data to create transparency in local government and promoting civic engagement among the public.</div>
+<div><img src="img/anti-eviction-mapping-project.png"></div>
+
+<div class="center sub-category">2.<br>The Issue</div>
+<div>Affordable Housing and Development &amp; Displacement in New York City.</div>
+
+<div class="center sub-category">3.<br>Research</div>
+
+<div><em>problem:</em><br>People are not aware of city processes &amp; developers are too powerful.</div>
+<div><em>Q: </em>How can technology and open data be leveraged to combat the negative effects of hyper gentrification? Specifically displacement?</div>
+
+<div class="center sub-category">4.<br>Action</div>
+<div>"Talk is cheap. So are pixels and kilobytes. Influence and effect comes with practice. And practices. We are our productions -- cartographic, academic, capitalistic. To shy from action for fear of false steps is to fail"<span style="float:right;">- Matthew W. Wilson</span></div>
+<div>Design and Technology as a social practice</div>
+<div><em>Problem:</em><br>Access to public information on NYC properties</div>
+<div><img src="img/empire_flatbush_lots.png"></div>
+<div><img src="img/map-pluto-csv-data.png"></div>
+<div><img src="img/acris-transaction-data.png"></div>
+
+<div><em>Solution: </em><br>Web Scraping</div>
+<div><img src="img/python-scraping.png"></div>
+
+<div><em>Q: </em><br>How to make this data more accessible?</div>
+<div><img src="img/nyc-property-extractor.gif"></div>
+<div><em>problem:</em><br>Would this actually be useful for community orgs and citizens?</div>
+<div>Perhaps pulling out the relevant parts of the data?</div>
+
+<div><img src="img/am-i-rent-stabilized00.jpg"></div>
+<div>But is <span>this</span> useful?</div>
+
+<div><em>solution:</em><br>Am-I-Rent-Stabilized.com</div>
+<div>To draw attention to lack of affordable housing and how property owners are removing them illegally</div>
+
+<div class="center"><em>Proposal</em></div>
+<div class="center">Utilizing open government data for narrative &amp; civic action.</div>
+<div class="center" style="font-style:italic;">end.</div>
+
+<body><html>
