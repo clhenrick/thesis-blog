@@ -1,0 +1,236 @@
+<!DOCTYPE html><html><head>
+<title>PRSI Final Presentation</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  /*font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;*/
+  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+  letter-spacing:1px;
+  background-color: hsl(0,0%,10%);
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+}
+
+div {
+}
+
+div h6 {
+  font-size: 50%;
+  font-weight: 100;
+  line-height: 100%; 
+}
+
+em, a {
+  position: relative;
+  padding: 0 2%;
+  /*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: hsl(300,100%,50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+  padding: 0 1%;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+  background-repeat: no-repeat;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,50%,0.8);
+  opacity: 0.6;
+}
+
+div.sub-category {
+  font-style: italic;
+}
+
+pre {
+  display: inline-block;
+}
+
+pre a {
+  text-transform: lowercase;
+  padding: 0;
+}
+
+span {
+  position: relative;
+  font-style: italic;
+  color: hsl(300,100%,50%);
+}
+
+span.special {
+  position: relative;
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.3em;
+  padding: 1%;
+  color:#fff;
+}
+
+span.special2 {
+  position: relative;
+  /*font-size: 1em;*/
+  font-style: normal;
+  font-weight: 600;
+  padding: 1%;
+  /*color: hsl(50, 90%, 50%);*/
+  color: hsl(300,100%,50%);
+}
+
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), cur = 0, ti;
+    if (!s) return;
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n], t;
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            document.body.style.backgroundRepeat = 'no-repeat';
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        t = parseInt(e.getAttribute('time-to-next') || 0, 10);
+        if (t > 0) ti = window.setTimeout(fwd, (t * 1000));
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 2) + 'px';
+            if (i < 0) break;
+        }
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++cur % (s.length)); };
+    function fwd() { go(Math.min(s.length - 1, ++cur)); }
+    function rev() { go(Math.max(0, --cur)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39) fwd();
+        if (e.which === 37) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e) {
+            var x1 = e.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+};
+</script></head><body>
+<div class="center">
+  <em>Narratives of Displacement in Bushwick, NY</em><br><br>
+  <h6>Chris Henrick - Fall 2014</h6>
+  <h6>Participatory Research<br> 
+    &amp; Social Inquiry</h6>
+</div>
+<!-- intro images -->
+<div><img src="img/East_Side_Eviction1910_cropped.jpg"></div>
+<div><img src="img/kreuzberg-gent-protest.jpg"></div>
+
+<!-- site reasons such as stagnate wages, not enough job growth, unregulated real estate speculation -->
+<div>economic down turn + hyper-gentrification >>> <span>increased displacement</span></div> 
+<div>Hyper-Gentrification?</div>
+<div><img src="img/map_gentrification.jpg"></div>
+<div><img src="img/nytimes01.jpg"></div>
+<div><img src="img/nytimes02.jpg"></div>
+<div><img src="img/nytimes03.jpg"></div>
+<div><img src="img/sumall-eviction-filings-to-homeless.jpg"></div>
+
+<div>Too often the conversation is on <span>neighborhood change.</span></div>
+<div>But what are the experiences of <span>those being displaced?</span></div>
+<div>The Participants</div>
+
+<div class="center"><em>Themes</em></div>
+
+<div><span class="special2">1.<br>Psychological, Emotional and Physical Trauma</span> </div>
+<div><span class="special">"My mom didn’t do anything and she was trembling with fear, she was so traumatized, it gets to this point where you never want to confront this person again.”</span></div>
+<div><span class="special">“We didn’t eat for months, my child wasn’t eating, wasn’t gaining weight, he’s still under weight now from the trauma we went through then, he stopped growing, I lost an insane amount of weight.”</span></div>
+
+<div><span class="special2">2.<br>Lack of Stable Housing</span></div>
+<div><span class="special">“Yeah, so basically like, I make $78,000 a year, my salary has gone up slightly since I began living here from 70 to 78 over time. But 70 as a single adult vs. 70 as a two person household is why I couldn’t afford to live there.” </span></div>
+<div><span class="special">“It costs us $5,000 just to move to that new apartment. That was all the money I had saved just in case if anything happened.”</span></div>
+
+<div><span class="special2">3.<br> Landlord harrassment</span></div>
+<div><span class="special">“...and it was getting really bad there, they turned off the electric, they turned off the gas but to get it turned back on, they lied about some stuff..."</span></div>
+
+<div><span class="special2">4.<br> Lack of accountability of landlords engaging in illegal practices</span></div>
+<div><span class="special">“Yeah like he purposefully didn’t fix things, sanitation mainly...he purposely failed the inspection.”</span></div>
+
+<div><span class="special2">5. <br>Tenants’ unwillingness to fight back</span></div>
+<div><span class="special">“He gave me like $3,000. Under that negotiation I was also to drop the DHCR case. I felt like he bullied me into it.”</span></div>
+
+
+<div class="center" style="left:20%;"><em style="left:11%;">Personal Reflection</em><br><br><video preload="auto" loop autoplay src="img/reflection_mani.mp4"></video></div>
+<div>Difficulty in gaining access to individuals</div>
+<div>Empathetic response to stories</div>
+<div>Feelings of guilt</div>
+<div>How can I do these stories justice?</div>
+
+<div class="center"><h6><em>Moving Forward</em></h6></div>
+<div>Informing my thesis research</div>
+<div><a href="http://amirentstabilized.com" target="_blank">Am I Rent Stabilized dot com</a></div>
+<div><a href="http://clhenrick.github.io/BushwickCommunityMap/map/" target="_blank">Bushwick Community Map</a></div>
+<div>Planning on pursuing research further</div>
+
+<div><span>end.</span></div>
+<body><html>
