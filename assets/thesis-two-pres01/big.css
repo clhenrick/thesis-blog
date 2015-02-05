@@ -1,0 +1,117 @@
+body {  
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing:1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+}
+
+em, a {
+  position: relative;
+  padding: 0 2%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color: hsl(300, 60%, 50%);
+  top: .03em;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+  background-repeat: no-repeat;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(300, 100%, 50%,0.8);
+  opacity: 0.6;
+}
+
+div.sub-category {
+  font-style: italic;
+}
+
+pre {
+  display: inline-block;
+}
+
+pre a {
+  text-transform: lowercase;
+  padding: 0;
+}
+
+span {
+  position: relative;
+  font-style: italic;
+  color: hsl(60,100%,50%);
+}
+
+span.st {
+  font-style: normal;
+  font-weight: 100;
+  color: hsl(0,100%,50%);
+  text-decoration: line-through;
+}
+
+span.none {
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+
+span.red {
+  color: red;
+}
+
+span.special {
+  position: relative;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1%;
+  color: hsl(50, 90%, 50%);
+}
+
+span.special2 {
+  position: relative;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1%;
+  color: hsl(50, 90%, 50%);
+}
